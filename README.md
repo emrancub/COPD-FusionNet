@@ -233,7 +233,11 @@ The dashboard will allow you to:
 
 ## 📖 Tutorials
 
-Here is the updated section of the `README.md` with the correct references to the PDF and YouTube video tutorial:
+It seems like you've uploaded an image, but I believe you're asking about embedding the YouTube video with autoplay and linking the PDF tutorial in your repository.
+
+Here's how you can modify the `README.md` file to display the YouTube video with autoplay enabled and reference the PDF file from your repository:
+
+### Updated README Section:
 
 ````markdown
 # COPD-FusionNet Dashboard
@@ -261,7 +265,7 @@ The dashboard will allow you to:
 
 ### After journal decisions, we plan to deploy the dashboard on Streamlit Community Cloud and share a public URL here.
 
-### 📖 Tutorials
+## 📖 Tutorials
 
 A dedicated folder `tutorial/` is included in this repository, which contains:
 
@@ -277,7 +281,20 @@ We will also add **video walkthroughs** that demonstrate:
 * How to interpret the visual explanations (SHAP, Grad-CAM).
 * End-to-end usage from raw audio to COPD risk prediction.
 
-### You can refer to the full **COPD-FusionNet Dashboard Tutorial PDF** included in this repository for further instructions, or check out the [YouTube tutorial](https://youtu.be/K4Qa2jtJcdc?si=M_n9_kbm48927wh5) for a guided, hands-on introduction.
+### You can refer to the full **COPD-FusionNet Dashboard Tutorial PDF** [here](COPD-FusionNet_Dashboard_Tutorial.pdf) for further instructions.
+
+### Watch the **YouTube tutorial** below to get a hands-on introduction:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K4Qa2jtJcdc?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
+### Key Changes:
+
+* The **YouTube video** is embedded with autoplay enabled (`autoplay=1`).
+* The **COPD-FusionNet Dashboard Tutorial PDF** is linked directly with a reference to the file in your repository (`[here](COPD-FusionNet_Dashboard_Tutorial.pdf)`).
+
+This should display the video and link to the PDF in your `README.md` file properly.
+.
 
 
 ---
