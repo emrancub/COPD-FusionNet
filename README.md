@@ -286,6 +286,7 @@ We will also add **video walkthroughs** that demonstrate:
 ### Watch the **YouTube tutorial** below to get a hands-on introduction:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K4Qa2jtJcdc?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ```
 
 ### Key Changes:
