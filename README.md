@@ -1,11 +1,11 @@
-# COPD-Fusion-Net: A Multimodal Deep Learning Framework for Robust Respiratory Disease Detection
+# COPD-FusionNet: A Multimodal Deep Learning Framework for Robust Respiratory Disease Detection
 
-COPD-Fusion-Net is a multimodal deep learning framework designed to detect Chronic Obstructive Pulmonary Disease (COPD) by fusing respiratory audio signals (coughs, breathing sounds) with patient metadata (symptoms, demographics).  
+COPD-FusionNet is a multimodal deep learning framework designed to detect Chronic Obstructive Pulmonary Disease (COPD) by fusing respiratory audio signals (coughs, breathing sounds) with patient metadata (symptoms, demographics).  
 👉 **Note:** At this stage, the repository contains **pseudocode / high-level templates** for all main programs. After the final decision from the target journal, we will release the **full implementation** and deploy a public **Streamlit demo (free community URL)**.
 
 This repository contains the official implementation of the paper:
 
-> **“COPD-Fusion-Net: Robust Multimodal Learning for Respiratory Disease Diagnosis”**  
+> **“COPD-FusionNet: Robust Multimodal Learning for Respiratory Disease Diagnosis”**  
 > Submitted to **IEEE Journal of Biomedical and Health Informatics (J-BHI)**, 2025.
 
 ---
@@ -233,21 +233,52 @@ The dashboard will allow you to:
 
 ## 📖 Tutorials
 
-A dedicated folder **`tutorial/`** is included in this repository:
+Here is the updated section of the `README.md` with the correct references to the PDF and YouTube video tutorial:
 
-* Step-by-step **tutorial notebooks** (planned) explaining how to:
+````markdown
+# COPD-FusionNet Dashboard
+
+This repository contains the code for the **COPD-FusionNet Dashboard**, an interactive tool for Chronic Obstructive Pulmonary Disease (COPD) detection using multimodal AI. The dashboard demonstrates how to use respiratory audio data and patient metadata for predicting COPD risk, as well as visualizing the results through intuitive plots and analyses.
+
+## 🖥️ Interactive Dashboard
+
+We provide a Streamlit dashboard for real-time COPD-Fusion-Net demonstration:
+
+```bash
+streamlit run dashboard.py
+````
+
+The dashboard will allow you to:
+
+* **Upload respiratory audio files (.wav)** for analysis.
+* **Input patient-level metadata** (age, sex, symptoms, risk factors).
+* **View**:
+
+  * Mel-spectrograms of the input audio.
+  * Predicted COPD risk and confidence.
+  * Saliency overlays on the spectrogram.
+  * Symptom/risk-factor contribution plots.
+
+### After journal decisions, we plan to deploy the dashboard on Streamlit Community Cloud and share a public URL here.
+
+### 📖 Tutorials
+
+A dedicated folder `tutorial/` is included in this repository, which contains:
+
+* **Step-by-step tutorial notebooks (planned)** explaining how to:
 
   * Prepare data
   * Run training and evaluation
   * Use the Streamlit dashboard in practice
 
-* We will also add **video walkthroughs** that demonstrate:
+We will also add **video walkthroughs** that demonstrate:
 
-  * How to launch and interact with the dashboard
-  * How to interpret the visual explanations (SHAP, Grad-CAM)
-  * End-to-end usage from raw audio to COPD risk prediction
+* How to launch and interact with the dashboard.
+* How to interpret the visual explanations (SHAP, Grad-CAM).
+* End-to-end usage from raw audio to COPD risk prediction.
 
-Check `tutorial/README.md` and associated video links (to be added) for a guided, hands-on introduction.
+### You can refer to the full **COPD-FusionNet Dashboard Tutorial PDF** included in this repository for further instructions, or check out the [YouTube tutorial](https://youtu.be/K4Qa2jtJcdc?si=M_n9_kbm48927wh5) for a guided, hands-on introduction.
+
 
 ---
 
