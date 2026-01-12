@@ -6,7 +6,7 @@ COPD-FusionNet is a multimodal deep learning framework designed to detect Chroni
 This repository contains the official implementation of the paper:
 
 > **“COPD-FusionNet: Robust Multimodal Learning for Respiratory Disease Diagnosis”**  
-> Submitted to **IEEE Journal of Biomedical and Health Informatics (J-BHI)**, 2025.
+> Submitted to **IEEE Journal of Biomedical and Health Informatics (J-BHI)**, 2026.
 
 ---
 
@@ -34,7 +34,7 @@ This repository contains the official implementation of the paper:
 
 Detecting COPD early is critical but challenging due to the variability and incompleteness of real-world clinical data. **Unimodal** models (audio-only or tabular-only) often fail when one source of data is noisy, missing, or ambiguous.
 
-**COPD-Fusion-Net** addresses this limitation by:
+**COPD-FusionNet** addresses this limitation by:
 
 - Extracting **spatial features** from audio spectrograms using **EfficientNet-B2**.  
 - Capturing **temporal dynamics** using a custom **CRNN** (CNN + Bi-GRU + Attention).  
@@ -66,7 +66,7 @@ These branches are combined via a **learnable fusion head** (gating + dense laye
 ### Pipeline Workflow
 
 1. **Data Collection**  
-   - Audio: ICBHI respiratory sound database and related sources.  
+   - Audio: Respiratory sound database and related sources.  
    - Tabular: Symptom and risk-factor metadata (e.g., smoking history, chronic cough).
 
 2. **Preprocessing**  
@@ -107,8 +107,8 @@ These branches are combined via a **learnable fusion head** (gating + dense laye
 
 ```bash
 # Clone the repository
-git clone https://github.com/YourUsername/COPD-Fusion-Net.git
-cd COPD-Fusion-Net
+git clone https://github.com/YourUsername/COPD-FusionNet.git
+cd COPD-FusionNet
 
 # Create and activate a virtual environment
 python -m venv venv
@@ -210,7 +210,7 @@ python audio_saliency.py
 
 ## 🖥️ Interactive Dashboard
 
-We provide a **Streamlit** dashboard for real-time COPD-Fusion-Net demonstration:
+We provide a **Streamlit** dashboard for real-time COPD-FusionNet demonstration:
 
 ```bash
 streamlit run dashboard.py
@@ -239,7 +239,7 @@ This repository contains the code for the **COPD-FusionNet Dashboard**, an inter
 
 ### 🖥️ Interactive Dashboard
 
-We provide a Streamlit dashboard for real-time COPD-Fusion-Net demonstration:
+We provide a Streamlit dashboard for real-time COPD-FusionNet demonstration:
 
 ```bash
 streamlit run dashboard.py
