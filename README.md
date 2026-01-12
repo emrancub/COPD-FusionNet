@@ -290,7 +290,7 @@ Example summary (internal 5-fold cross-validation):
 | Audio (CRNN)          | Audio      | ***       | ***        |***       | ***   | ***   |
 | Tabular (ResMLP)      | Tabular    | ***      | ***         |***       | ***   | ***   |
 | Tabular (Transformer) | Tabular    | ***      | ***         |***       | ***   | ***   |
-| **FusionNet (Ours)**  | Multimodal | ***    | ***       |***       | ***   | ***   |
+| **COPD-FusionNet (Ours)**  | Multimodal | ***    | ***       |***       | ***   | ***   |
 
 > *Note:* These values summarize internal experiments as described in the paper. See the manuscript and `results/` (in the full code release) for full metrics: accuracy, F1, sensitivity, specificity, MCC, external validation, and ablation details.
 
