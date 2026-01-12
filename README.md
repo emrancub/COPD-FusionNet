@@ -277,7 +277,7 @@ We will also add **video walkthroughs** that demonstrate:
 
 [Watch the tutorial](https://youtu.be/K4Qa2jtJcdc?autoplay=1)
 
-
+---
 ## 📊 Results
 
 Extensive experiments in the associated manuscript show that **FusionNet** outperforms unimodal baselines, especially under noisy audio conditions.
