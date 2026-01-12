@@ -265,9 +265,6 @@ The dashboard will allow you to:
 
 ### After journal decisions, we plan to deploy the dashboard on Streamlit Community Cloud and share a public URL here.
 
-## 📖 Tutorials
-
-A dedicated folder `tutorial/` is included in this repository, which contains:
 
 * **Step-by-step tutorial notebooks (planned)** explaining how to:
 
