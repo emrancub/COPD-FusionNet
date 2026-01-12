@@ -278,15 +278,6 @@ We will also add **video walkthroughs** that demonstrate:
 [Watch the tutorial](https://youtu.be/K4Qa2jtJcdc?autoplay=1)
 
 
-### Key Changes:
-
-* The **YouTube video** is embedded with autoplay enabled (`autoplay=1`).
-* The **COPD-FusionNet Dashboard Tutorial PDF** is linked directly with a reference to the file in your repository (`[here](COPD-FusionNet_Dashboard_Tutorial.pdf)`).
-
-This should display the video and link to the PDF in your `README.md` file properly.
-.
-
-
 ## 📊 Results
 
 Extensive experiments in the associated manuscript show that **FusionNet** outperforms unimodal baselines, especially under noisy audio conditions.
