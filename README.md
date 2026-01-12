@@ -233,18 +233,11 @@ The dashboard will allow you to:
 
 ## 📖 Tutorials
 
-It seems like you've uploaded an image, but I believe you're asking about embedding the YouTube video with autoplay and linking the PDF tutorial in your repository.
-
-Here's how you can modify the `README.md` file to display the YouTube video with autoplay enabled and reference the PDF file from your repository:
-
-### Updated README Section:
-
-````markdown
-# COPD-FusionNet Dashboard
+### COPD-FusionNet Dashboard
 
 This repository contains the code for the **COPD-FusionNet Dashboard**, an interactive tool for Chronic Obstructive Pulmonary Disease (COPD) detection using multimodal AI. The dashboard demonstrates how to use respiratory audio data and patient metadata for predicting COPD risk, as well as visualizing the results through intuitive plots and analyses.
 
-## 🖥️ Interactive Dashboard
+### 🖥️ Interactive Dashboard
 
 We provide a Streamlit dashboard for real-time COPD-Fusion-Net demonstration:
 
