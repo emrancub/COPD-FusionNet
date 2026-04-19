@@ -7,7 +7,7 @@ def load_data():
     return audio_df, tab_c, tab_nc, feats
 
 def get_model_instance(model_name, num_tab_feats):
-    if model_name == "Audio_EffNet": return AudioModel_EffNet(pretrained=True)
+    if model_name == "Audio_EffNet":  return AudioModel_EffNet(pretrained=True)
     if model_name == "Audio_CRNN":   return AudioModel_CRNN()
     if model_name == "Tab_MLP":      return TabularModel_MLP(input_dim=num_tab_feats)
     if model_name == "Tab_Trans":    return TabularModel_Transformer(input_dim=num_tab_feats)
@@ -38,7 +38,7 @@ def train_one_epoch(model, loader, criterion, optimizer, device, mode):
         optimizer.step()
         running_loss += loss.item() * y.size(0)
     return running_loss / len(loader.dataset)
-
+    
 def validate(model, loader, criterion, device, mode):)
 
 def run_experiment(model_name):
