@@ -1,4 +1,4 @@
-#We will make all necessary updates once the paper has been accepted.
+#We will make all necessary updates once the paper has been accepted
 PATH_DS1_ROOT =
 PATH_DS2_ROOT =
 PATH_DS3_CSV  =
