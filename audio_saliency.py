@@ -56,7 +56,6 @@ def generate_map_for_model(model_name, ModelClass, loader):
     else:
         print("  Error: No gradients computed. Model might not support Grad-CAM directly.")
 
-
 def main():
     loader = load_data_sample()
 
