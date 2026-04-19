@@ -5,7 +5,7 @@ COPD-FusionNet is a multimodal deep learning framework designed to detect Chroni
 
 This repository contains the official implementation of the paper:
 
-> **“COPD-FusionNet: Robust Multimodal Learning for Respiratory Disease Diagnosis”**  
+> **“COPD-FusionNet: A Multimodal Multisource Fusion Network of Respiratory Audio and Symptom Metadata for COPD Screening”**  
 > Submitted to **Artificial Intelligence in Medicine**, 2026.
 
 ---
