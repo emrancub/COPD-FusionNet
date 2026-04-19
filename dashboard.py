@@ -1,7 +1,7 @@
 import os
 import uuid # For unique temp files
 
-# --- CRITICAL FIX: OMP Runtime Conflict ---
+# --- CRITICAL FIX: OMP Runtime Conflict --
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 import json
