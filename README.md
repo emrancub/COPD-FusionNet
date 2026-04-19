@@ -1,4 +1,4 @@
-# COPD-FusionNet: A Multimodal Deep Learning Framework for Robust Respiratory Disease Detection
+# COPD-FusionNet: A Multimodal Multisource Fusion Network of Respiratory Audio and Symptom Metadata for COPD Screening
 
 COPD-FusionNet is a multimodal deep learning framework designed to detect Chronic Obstructive Pulmonary Disease (COPD) by fusing respiratory audio signals (coughs, breathing sounds) with patient metadata (symptoms, demographics).  
 👉 **Note:** At this stage, the repository contains **pseudocode / high-level templates** for all main programs. After the final decision from the target journal, we will release the **full implementation** and deploy a public **Streamlit demo (free community URL)**.
