@@ -57,7 +57,6 @@ def run_robustness_analysis():
         model_fusion.load_state_dict(torch.load(os.path.join(config.CHECKPOINTS_DIR, "FusionNet_fold0.pth")))
     except: print("Warning: Could not load FusionNet weights.")
 
-
     print(f"\n{'Noise (std)':<12} | {'EffNet':<8} | {'CRNN':<8} | {'FusionNet':<8}")
     print("-" * 46)
 
