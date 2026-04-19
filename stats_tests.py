@@ -30,7 +30,6 @@ def perform_tests():
 
             t_stat, p_val = ttest_rel(fusion_auc, baseline_auc)
 
-
             mean_diff = fusion_auc.mean() - baseline_auc.mean()
 
             # Significance stars
