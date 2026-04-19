@@ -1,3 +1,4 @@
+
 class COPDDataset(Dataset):
     def __init__(self, audio_df, tab_copd, tab_non_copd, tab_features, mode='fusion', augment=False):
         self.audio_df = audio_df.reset_index(drop=True)
