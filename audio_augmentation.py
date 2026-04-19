@@ -1,3 +1,4 @@
+
 class StrongAudioAugmentations(nn.Module):
     def __init__(self, p=0.5):
         super().__init__()
@@ -12,7 +13,7 @@ class StrongAudioAugmentations(nn.Module):
             noise = torch.randn_like(waveform) * noise_level
             return waveform + noise
         return waveform
-
+        
     def time_shift(self, waveform):
         if torch.rand(1) < self.p:
             shift_amt = int(np.random.uniform(-0.1, 0.1) * waveform.shape[-1])
