@@ -6,7 +6,6 @@ class RespTRAudioDataset(Dataset):
     def __len__(self):
         return len(self.df)
 
-
 class COPDGoldTabularDataset(Dataset):
     def __init__(self, csv_path: str, feature_cols, label_col: str = "label_severe"):
         self.df = pd.read_csv(csv_path)
