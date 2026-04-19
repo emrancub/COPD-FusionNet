@@ -100,7 +100,6 @@ def process_external_data():
     except Exception as e:
         print(f"Ext Tabular Error: {e}")
 
-
 if __name__ == "__main__":
     ensure_dirs()
     process_internal_data()
