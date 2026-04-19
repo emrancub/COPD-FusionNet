@@ -8,7 +8,6 @@ def main():
         tabular_non_copd_csv=config.PREPROCESSED_TABULAR_NON_COPD,
         mode='test'
     )
-
     if len(test_dataset) == 0:
         print("Error: No test samples found. Did you run 'old_preprocess.py'?")
         return
