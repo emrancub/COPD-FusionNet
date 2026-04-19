@@ -1,5 +1,5 @@
 def load_data():
-    print("[SHAP] Loading Data...")
+    print("[SHAP] Loading Data....")
     tab_c = pd.read_csv(config.TABULAR_COPD_CSV)
     tab_nc = pd.read_csv(config.TABULAR_NON_COPD_CSV)
 
