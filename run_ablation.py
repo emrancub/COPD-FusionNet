@@ -49,7 +49,6 @@ class Fusion_NoTransformer(nn.Module):
         concat = torch.cat([e_a1, e_a2, e_t1], dim=1)
         return self.fusion_head(concat)
 
-
 def main():
     all_results = {}
     path_full = config.get_metrics_path("FusionNet")
